@@ -1,0 +1,143 @@
+@font-face {
+    font-family: mainFont;
+    src: url(EvilEmpire-4BBVK.ttf);
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #267BA5;
+    margin:0px;
+}
+.logoutbutt {
+    line-height: 25px;
+    width: 120px;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-right: 20px;
+    position:absolute;
+    border-color:#175B7F;
+    top:0;
+    right:0;
+    background-color:#175B7F;
+    transition-duration: 0.4s;
+}
+.logoutbutt:hover {
+    background-color:white;
+    color: black;
+}
+.largeContainer {
+    width:500px;
+    display:block;
+    margin:auto;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    background-color:#175B7F;
+}
+
+.title {
+    text-align:center;
+    font-family:mainFont;
+    font-size:75px;
+    margin-top:0px;
+}
+.largeContainer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.largeContainer input[type=submit]{
+    width: 310px;
+  	height: 50px;
+  	border: 1px solid #dee0e4;
+  	margin-bottom: 20px;
+  	padding: 0 15px;
+ 	border: 0;
+  	cursor: pointer;
+  	font-weight: bold;
+  	color: black;
+  	transition: background-color 0.2s;
+}
+.register, .signin {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.register h1, .signin h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.register form, .signin form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.register form input[type="password"], .register form input[type="text"], .signin form input[type="password"], .signin form input[type="text"]{
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.register form input[type="submit"], .signin form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.register form input[type="submit"]:hover, .signin form input[type="submit"]:hover {
+  background-color: #2868c7;
+    transition: background-color 0.2s;
+}
+.betterUpgrades {
+    display:inline-block;
+    height:500px;
+    width:24%;
+    text-align:center;
+}
+.baseUpgrades {
+    display:inline-block;
+    height:500px;
+    width:24%;
+    text-align:center;
+    margin-top:0px;
+}
+#clickMain {
+    display:inline-block;
+    height:500px;
+    width:48%;
+    margin-right:25px;
+    margin-top:0px;
+}
+.upgrade {
+    height:90px;
+    display:block;
+    margin:0px;
+}
+.pastrychef {
+    height:300px;
+}
+.souschef {
+    height:150px;
+}
+#count {
+    text-align:center;
+}
+#main {
+    margin-top:0px;
+}
+#but {
+    width:45%;
+    height:100%;
+}
